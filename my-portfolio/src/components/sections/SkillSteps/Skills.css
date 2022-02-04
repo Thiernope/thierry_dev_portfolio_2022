@@ -1,0 +1,212 @@
+.all-skills{
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .skills{
+      width: 40%; 
+  }
+  
+  .skills ul li{
+      margin: 30px 0;
+      position: relative;
+  }
+  
+  .skills ul li:before{
+      content: "";
+      width: 100%;
+      position: absolute;
+      top: calc(100% + 10px);
+      left:0px;
+      height:4px;
+      background-color: rgba(138, 44, 182, 0.76);
+      border-radius: 1000px;
+  
+  }
+  
+  .skills ul li:after{
+      content: "";
+      width: 0;
+      position: absolute;
+      top: calc(100% + 10px);
+      left:0px;
+      height:4px;
+      background-color: rgba(35, 197, 127, 0.76);
+      border-radius: 1000px;
+      animation-duration: .7s;
+      animation-timing-function:ease;
+      animation-fill-mode: forwards;
+  }
+  
+  .skills ul li.html:after{
+      animation-name: html;
+  }
+  
+  @keyframes html{
+      to {
+          width: 90%;
+      }
+  }
+  .skills ul li.css:after{
+      animation-name: css;
+  }
+  
+  @keyframes css{
+      to {
+          width: 80%;
+      }
+  }
+  .skills ul li.javascript:after{
+      animation-name: javascript;
+  }
+  
+  @keyframes javascript{
+      to {
+          width: 75%;
+      }
+  }
+  .skills ul li.flex:after{
+      animation-name: flex;
+  }
+  
+  @keyframes flex{
+      to {
+          width: 80%;
+      }
+  }
+  .skills ul li.grid:after{
+      animation-name: grid;
+  }
+  
+  @keyframes grid{
+      to {
+          width: 80%;
+      }
+  }
+  .skills ul li.grid:after{
+      animation-name: grid;
+  }
+  
+  @keyframes grid{
+      to {
+          width: 80%;
+      }
+  }
+  .skills ul li.node:after{
+      animation-name: node;
+  }
+  
+  @keyframes node{
+      to {
+          width: 70%;
+      }
+  }
+  .skills ul li.firebase:after{
+      animation-name: firebase;
+  }
+  
+  @keyframes firebase{
+      to {
+          width: 65%;
+      }
+  }
+  
+  .skills ul li.figma:after{
+      animation-name: figma;
+  }
+  
+  @keyframes figma{
+      to {
+          width: 70%;
+      }
+  }
+  .skills ul li.git:after{
+      animation-name: git;
+  }
+  
+  @keyframes git{
+      to {
+          width: 40%;
+      }
+  }
+  
+  .skills ul li.vscode:after{
+      animation-name: vscode;
+  }
+  
+  @keyframes vscode{
+      to {
+          width: 90%;
+      }
+  }
+  
+  .skills ul li.commandline:after{
+      animation-name: commandline;
+  }
+  
+  @keyframes commandline{
+      to {
+          width: 50%;
+      }
+  }
+  
+  .skills ul li.ms:after{
+      animation-name: ms;
+  }
+  
+  @keyframes ms{
+      to {
+          width: 90%;
+      }
+  }
+  
+  .skills ul li.google:after{
+      animation-name: google;
+  }
+  
+  @keyframes google{
+      to {
+          width: 75%;
+      }
+  }
+  
+  .skills ul li.trello:after{
+      animation-name: trello;
+  }
+  
+  @keyframes trello{
+      to {
+          width: 95%;
+      }
+  }
+  
+  .skills ul li.sql:after{
+      animation-name: sql;
+  }
+  
+  @keyframes sql{
+      to {
+          width: 75%;
+      }
+  }
+  
+  .percentage{
+      color: green;
+  }
+
+  .low-percentage {
+      color: red;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .all-skills {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .skills {
+        width:100%;
+    }
+  }
+  

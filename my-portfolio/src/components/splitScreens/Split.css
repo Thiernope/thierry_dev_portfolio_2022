@@ -1,0 +1,73 @@
+.splitContainer {
+    background-color: yellowgreen;
+    min-height: 100vh;
+    display: flex;
+    
+  }
+  
+  
+  .touch-pannel {
+    background-color: red;
+    flex:0; 
+    transition: 500ms flex ease-in;
+    
+  }
+  
+  .audio-pannel {
+    background-color: yellow;
+    flex:0;
+    transition: 500ms flex ease-in;
+  
+   
+    
+  } 
+  
+  
+  .active-touch-panel {
+  background-color: red;
+  flex:5;
+  transition: 500ms flex ease-in;
+ 
+ 
+  }
+  
+  .active-audio-panel {
+    background-color: yellow;
+    flex:5;
+    transition: 500ms flex ease-in;
+  }
+  
+  
+  .voice-content {
+    display: none;
+  }
+  
+  .touch-content {
+     display: none;
+  }
+  
+  .expendDiv {
+    align-self: flex-start;
+  }
+  .voice-content-active {
+    display: flex;
+    
+  }
+  
+  .touch-content-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  @media screen and (max-width: 480px) {
+    .splitContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  
