@@ -66,7 +66,7 @@ export const projectsData = [
         id: "628bd13b-91a4-4bed-8bfe-3d96763d2d41",
         title: "Spend Wisely",
         type: "Personal",
-        image: "https://res.cloudinary.com/dev-ltd/image/upload/v1639573314/Rwanda_yb6dpb.png",
+        image: "https://res.cloudinary.com/dev-ltd/image/upload/v1666603621/uqssqa2we5uhr1qqtcvt.png",
         description: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
         projectUrl: "https://income-expenses-tracker.vercel.app/",
         gitHubRepo: "https://github.com/Thiernope/income-expenses-tracker",

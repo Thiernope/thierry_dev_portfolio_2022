@@ -4,7 +4,6 @@ import Typical from "react-typical"
 import { projectsData } from "../projectData/projectsData"
 const Projects = () => {
     const [projects] = useState(projectsData)
-    console.log("ProjectsData", projects)
   return (
     <div className="">
        <h1 className="mt-20 md:mt-0 md:mb-20 text-xl lg:text-3xl text-gray-900 dark:text-gray-400 transition ease-in duration-700"><Typical
