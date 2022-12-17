@@ -92,7 +92,7 @@ const Experience = () => {
             {/* <!-- Modal header --> */}
             {showOnPrinting && 
              <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-                <h3 onClick={generateInvoicePDF} className="text-xl font-semibold text-gray-900 dark:text-white cursor-pointer hover:underline hover:text-blue-400">
+                <h3 onClick={generateInvoicePDF} className="underline text-xl font-semibold text-gray-900 dark:text-white cursor-pointer hover:underline hover:text-blue-400">
                    Download
                 </h3>
                 <button onClick={() => setShowModal(false)}  className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
