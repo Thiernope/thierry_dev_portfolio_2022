@@ -5,7 +5,7 @@ export const projectsData = [
         title: "Garments'shop",
         type: "Personal",
         image: "https://res.cloudinary.com/dev-ltd/image/upload/v1653991243/clark-street-mercantile-qnKhZJPKFD8-unsplash_nmzl6b.jpg",
-        description: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        description: "This Project is for showcasing my skill about using react with shopify storeFront Api using Shopify Javascript SDK.",
         projectUrl: "https://thierry-ecomerce-shop.netlify.app/",
         gitHubRepo: "https://github.com/Thiernope/income-expenses-tracker",
         skillsCovered: [ 
@@ -67,7 +67,7 @@ export const projectsData = [
         title: "Spend Wisely",
         type: "Personal",
         image: "https://res.cloudinary.com/dev-ltd/image/upload/v1666603621/uqssqa2we5uhr1qqtcvt.png",
-        description: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        description: "This Project is for helping people to track their spendings in order to make sure that their expenses don't go over their income.",
         projectUrl: "https://income-expenses-tracker.vercel.app/",
         gitHubRepo: "https://github.com/Thiernope/income-expenses-tracker",
         skillsCovered: [ 
