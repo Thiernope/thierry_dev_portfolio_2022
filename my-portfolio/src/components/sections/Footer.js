@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="pb-4 mt-20 px-3 sm:px-0">
         <div className="sm:flex justify-center items-center">
          <p className="sm:text-center max-w-xs lg:max-w-lg mb-3 font-normal text-gray-700 dark:text-gray-400">
-         I am an aspiring web developer with 3 years of experience as a React Developer. I build websites that delight and inform. I do it well.
+         I am an aspiring web developer with 3 years of experience as a MERN Developer. I build websites that delight and inform. I do it well.
          </p>
          </div>
     <div>

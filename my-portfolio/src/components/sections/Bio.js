@@ -29,7 +29,7 @@ const Bio = () => {
          <h1 className="font-bold text-3xl lg:text-5xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 mt-3">MERN</h1><br/>
          <h1 className="font-bold text-5xl lg:text-7xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 -mt-3">Developer</h1>
          <p className="max-w-sm mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">
-         I am an aspiring web developer with 3 years of experience as a React Developer.
+         I am an aspiring web developer with 3 years of experience as a MERN Developer.
          I build websites that delight and inform. I do it well.
          </p>
          <HashLink smooth to="/#contact">
