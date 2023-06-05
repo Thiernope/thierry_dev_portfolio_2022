@@ -1,7 +1,7 @@
 import React, {useState } from 'react';
 import Typical from "react-typical"
 import emailjs from '@emailjs/browser'
-import ReCAPTCHA from "react-google-recaptcha";
+//import ReCAPTCHA from "react-google-recaptcha";
 import Success from "../toast/Success"
 import Error from "../toast/Error"
 import ClipLoader from "react-spinners/ClipLoader";
@@ -113,17 +113,18 @@ const RECAPTCHA_SITE_KEY = process.env.REACT_APP_SITE_KEY_RECAPTCHA
   onChange = {(e)=> {setTemplateParams({...templateParams, message: e.target.value})}}
   ></textarea>
 
-<div className="max-w-xs mt-5">
+{/* <div className="max-w-xs mt-5">
 <ReCAPTCHA
     sitekey={RECAPTCHA_SITE_KEY}
     onChange={fetchRecaptureValue}
   />
-</div>
+</div> */}
   {notification} 
-  {isVerified === true? 
-  <button onClick={sendEmail} className="mt-5 flex justify-center items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{loading} Submit</button>:
-  <button disabled className="cursor-no-drop mt-5 text-gray-800 bg-gray-300 hover:bg-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
-}
+  {/* {isVerified === true?  */}
+  <button onClick={sendEmail} className="mt-5 flex justify-center items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{loading} Submit</button>
+  {/* :
+/* <button disabled className="cursor-no-drop mt-5 text-gray-800 bg-gray-300 hover:bg-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+}  */}
 </form>
 
      
