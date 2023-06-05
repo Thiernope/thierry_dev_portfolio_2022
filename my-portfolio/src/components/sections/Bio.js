@@ -26,7 +26,7 @@ const Bio = () => {
         wrapper = "p"
         /></h1>
          <h1 className="gr mt-10 md:mt-0 font-semibold text-2xl lg:text-4xl mb-3">I'm Thierry</h1>
-         <h1 className="font-bold text-3xl lg:text-5xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 mt-3">React Node</h1><br/>
+         <h1 className="font-bold text-3xl lg:text-5xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 mt-3">MERN</h1><br/>
          <h1 className="font-bold text-5xl lg:text-7xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 -mt-3">Developer</h1>
          <p className="max-w-sm mb-3 mt-3 font-normal text-gray-700 dark:text-gray-400">
          I am an aspiring web developer with 3 years of experience as a React Developer.
