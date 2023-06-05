@@ -16,7 +16,7 @@ const Contact = () => {
 };
  
 const [templateParams, setTemplateParams] = useState(formData)
-const [isVerified, setIsVerified ] = useState(false)
+//const [isVerified, setIsVerified ] = useState(false)
 const [notification, setNotification] = useState(null)
 const [loading, setLoading] = useState(null)
 
@@ -24,12 +24,12 @@ const closeNotification = () => {
  setNotification(null)
 }
 
-const fetchRecaptureValue  = (value) => {
-  if(value) {
-    return setIsVerified(true)
-  } 
-  return setIsVerified(false)
-}
+// const fetchRecaptureValue  = (value) => {
+//   if(value) {
+//     return setIsVerified(true)
+//   } 
+//   return setIsVerified(false)
+// }
 
 const SERVICE_ID = process.env.REACT_APP_MAIL_JS_SERVICE_ID
 
@@ -37,7 +37,7 @@ const TEMPLETE = process.env.REACT_APP_MAIL_JS_TEMPLATE
 
 const PUBLIC_KEY = process.env.REACT_APP_MAIL_JS_PUBLIC_KEY
 
-const RECAPTCHA_SITE_KEY = process.env.REACT_APP_SITE_KEY_RECAPTCHA
+//const RECAPTCHA_SITE_KEY = process.env.REACT_APP_SITE_KEY_RECAPTCHA
 
 
   const sendEmail = (e) => {
