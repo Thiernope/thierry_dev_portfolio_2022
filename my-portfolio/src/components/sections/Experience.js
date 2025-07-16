@@ -41,7 +41,7 @@ const Experience = () => {
            /></h1>
     <div className="mt-10 md:mt-0 p-3 w-full rounded-md sm:border sm:border-gray-500 sm:border sm:hover:border-dotted  sm:flex justify-around items-center sm:pt-20 sm:pb-20">
         <div className="sm:flex flex-col justify-center items-center">
-          <h1 className="font-bold text-4xl lg:text-6xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 sm:mt-3">3 years</h1>
+          <h1 className="font-bold text-4xl lg:text-6xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 sm:mt-3">5 years</h1>
           <h1 className="font-bold text-2xl lg:text-2xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 sm:mt-3">of</h1>
           <h1 className="font-bold text-4xl lg:text-6xl text-gray-900 dark:text-gray-400 transition ease-in duration-700 sm:mt-3">Experience</h1>
         </div>
@@ -204,7 +204,7 @@ const Experience = () => {
                     # Java, JavaScript, NodeJs, Express/Nest, Reactjs/NextJs, Git, Redux, React Query, TailwindCss
                     </p>
               </div>
-               <p className="dark:text-white"> Portfolio website: https://www.thierrysite.com/ </p>
+               <p className="dark:text-white"> Portfolio website: https://thierry-portfolio-2023.netlify.app/ </p>
  
             </div>
         </div>
